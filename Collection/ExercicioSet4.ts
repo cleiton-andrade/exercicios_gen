@@ -11,7 +11,7 @@ numero = leia.questionInt()
 let encontrar : boolean = listaNumeros.has(numero)
 
 if(encontrar){
-    console.log(numero, " Foi encontrado! ")
+    console.log("O número", numero," foi encontrado! ")
 }else{
-    console.log(" Não foi encontrado. ")
+    console.log("Não foi encontrado!")
 }
